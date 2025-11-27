@@ -1,62 +1,109 @@
-/* General page styling */
+/* Base body styling */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0 20px;
-    background-color: #f9f9f9;
-    color: #333;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #333;
+background-color: #f9f9f9;
+line-height: 1.6;
+margin: 0;
+padding: 0;
 }
 
-/* CV container */
-#cv {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 30px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+/* Navbar styling */
+.navbar {
+background-color: #ffffff !important;
+border-bottom: 1px solid #e5e5e5;
+}
+.navbar-brand {
+font-weight: 700;
+font-size: 1.6rem;
+color: #222;
+}
+.navbar-nav .nav-link {
+font-weight: 500;
+margin-right: 1rem;
+color: #555;
+}
+.navbar-nav .nav-link.active {
+color: #007bff;
+}
+
+/* Section spacing */
+section {
+margin-bottom: 5rem;
+padding: 0 15px;
 }
 
 /* Headings */
-#cv h2 {
-    text-align: center;
-    color: #2c3e50;
-    margin-bottom: 20px;
+h1 {
+font-size: 2.8rem;
+font-weight: 700;
+margin-bottom: 0.5rem;
+color: #222;
+}
+h2 {
+font-size: 1.9rem;
+font-weight: 600;
+margin-top: 2rem;
+margin-bottom: 1rem;
+border-bottom: 2px solid #007bff;
+padding-bottom: 0.25rem;
+}
+h5 {
+font-weight: 600;
+margin-top: 1rem;
+margin-bottom: 0.5rem;
 }
 
-#cv h3 {
-    color: #34495e;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-}
-
-/* Paragraphs */
-#cv p {
-    margin-bottom: 15px;
+/* CV content */
+#cv p, #cv li {
+font-size: 1rem;
+margin-bottom: 0.5rem;
 }
 
 /* Lists */
-#cv ul {
-    list-style-type: disc;
-    margin-left: 20px;
+ul.list-group {
+padding-left: 0;
+}
+ul.list-group li {
+background-color: #ffffff;
+border: 1px solid #e0e0e0;
+margin-bottom: 0.5rem;
+padding: 0.8rem 1rem;
+border-radius: 0.3rem;
+transition: all 0.2s ease;
+}
+ul.list-group li:hover {
+background-color: #f0f8ff;
+border-color: #007bff;
 }
 
 /* Links */
-#cv a {
-    color: #2980b9;
-    text-decoration: none;
+a {
+color: #007bff;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
 }
 
-#cv a:hover {
-    text-decoration: underline;
+/* Footer */
+footer {
+font-size: 0.9rem;
+color: #666;
+background-color: #ffffff;
+border-top: 1px solid #e5e5e5;
+padding: 15px 0;
 }
 
 /* Responsive adjustments */
-@media (max-width: 600px) {
-    #cv {
-        padding: 15px;
-    }
+@media (max-width: 768px) {
+h1 {
+font-size: 2.2rem;
+}
+h2 {
+font-size: 1.6rem;
+}
+h5 {
+font-size: 1rem;
+}
 }

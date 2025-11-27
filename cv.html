@@ -1,112 +1,121 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Murugesh Narayanappa CV</title>
-    <!-- Link your CSS file here -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murugesh Narayanappa – CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Murugesh Narayanappa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<section id="cv">
-  <h1>Murugesh Narayanappa, Ph.D. (Biochemistry and Biophysics)</h1>
-  <p>Milpitas, California-95035 | murugeshnpadma@gmail.com | 541-908-3630 | <a href="https://github.com/murugeshngit-dev" target="_blank">GitHub</a></p>
+  <section class="container py-5" id="cv">
+    <div class="text-center mb-4">
+  <h1 class="mb-1">
+    Murugesh Narayanappa, Ph.D. 
+    <span style="font-weight: normal; font-size: 0.8rem; color: #555; text-decoration: none;">(Biochemistry and Biophysics)</span>
+  </h1>
+  <p style="font-size: 0.9rem; color: #555;">
+    Milpitas, California | <a href="mailto:murugeshnpadma@gmail.com">murugeshnpadma@gmail.com</a> | 541-908-3630 | <a href="https://github.com/murugeshngit-dev" target="_blank">GitHub</a>
+  </p>
+</div>
 
-  <h2>Professional Summary</h2>
-  <p>Senior scientist with multidisciplinary experience in protein biochemistry, biophysics, and functional genomics, complemented by 4+ years of computational biology with R, Bash, and HPC-based data analysis. Expert in recombinant protein expression, purification, biophysical characterization, and protein engineering, as well as computational modeling, structural visualization, and analysis using AlphaFold3 and ChimeraX. Experienced in CRISPR knockout and base-editing screens, RNA-seq and NGS data analysis using DESeq2, MaGeCK, and custom R/Bash pipelines. Proficient in molecular cloning, mammalian cell culture, flow cytometry, and confocal microscopy. Proven ability to integrate biochemical, cellular, and computational insights to advance target discovery and translational research.</p>
+<!-- Professional Summary -->
+<h2>Professional Summary</h2>
+<p>Senior scientist with multidisciplinary experience in protein biochemistry, biophysics, and functional genomics, complemented by 4+ years of computational biology with R, Bash, and HPC-based data analysis. Expert in recombinant protein expression, purification, biophysical characterization, and protein engineering, as well as computational modeling, structural visualization, and analysis using AlphaFold3 and ChimeraX. Experienced in CRISPR knockout and base-editing screens, RNA-seq and NGS data analysis using DESeq2, MaGeCK, and custom R/Bash pipelines. Proficient in molecular cloning, mammalian cell culture, flow cytometry, and confocal microscopy. Proven ability to integrate biochemical, cellular, and computational insights to advance target discovery and translational research.</p>
 
-  <h2>Skills</h2>
-  <h3>Protein Biochemistry & Biophysics</h3>
-  <ul>
-    <li>Protein expression (mammalian, bacterial, insect cells) and purification (affinity, ion-exchange, SEC) using FPLC.</li>
-    <li>Biophysical characterization: ITC, CD, fluorescence spectroscopy, BLI (OctetRed).</li>
-    <li>Protein engineering, computational modeling, structural analysis (ChimeraX, AlphaFold3).</li>
-  </ul>
+<!-- Skills -->
+<h2>Skills</h2>
+<ul class="list-group mb-3">
+  <li class="list-group-item"><strong>Protein Biochemistry & Biophysics:</strong> Protein expression (mammalian, bacterial, insect cells) and purification (affinity, ion-exchange, SEC) using FPLC; Biophysical characterization: ITC, CD, fluorescence spectroscopy, BLI (OctetRed); Protein engineering, computational modeling, structural analysis (ChimeraX, AlphaFold3).</li>
+  <li class="list-group-item"><strong>Molecular & Cell Biology:</strong> PCR/qPCR, molecular cloning (restriction, Gibson, Golden Gate assembly); Mammalian cell culture (eHAP1, RKO, HEK293T), transient transfection, stable cell line generation; Western blotting, immunofluorescence/confocal microscopy, flow cytometry (FlowJo).</li>
+  <li class="list-group-item"><strong>Functional Genomics & Computational Biology:</strong> Library design and preparation for CRISPR knockout and base editing screens; CRISPR/base editing screens, RNA-seq analysis using custom R/Bash scripts, DESeq2, MaGeCK; NGS sample preparation and analysis, including UMI-based read processing; Hands-on experience with MiSeq and NextSeq sequencing platforms.</li>
+  <li class="list-group-item"><strong>Programming & Data Visualization:</strong> Proficient in R, Bash for genomic data analysis and visualization on HPC; Statistical analysis: regression modeling, ANOVA, multivariate analysis, inference; Familiar with Python (Pandas, NumPy, Matplotlib, Seaborn) for data manipulation and plotting.</li>
+</ul>
 
-  <h3>Molecular & Cell Biology</h3>
-  <ul>
-    <li>PCR/qPCR, molecular cloning (restriction, Gibson, Golden Gate assembly).</li>
-    <li>Mammalian cell culture (eHAP1, RKO, HEK293T), transient transfection, stable cell line generation.</li>
-    <li>Western blotting, immunofluorescence/confocal microscopy, flow cytometry (FlowJo).</li>
-  </ul>
+<!-- Professional Experience -->
+<h2>Professional Experience</h2>
+<h5>Stanford University – Senior Scientist (Life Science Research Professional), 2022–Present</h5>
+<p>Advisor: Dr. Rajat Rohatgi, MD, PhD</p>
+<ul class="list-group mb-3">
+  <li class="list-group-item">Developed and optimized CRISPR knockout and base editing screens, including library design, preparation, and NGS workflows (MiSeq, NextSeq) to map sequence-function landscapes within β-catenin destruction complex (CTNNB1, AXIN1, APC, GSK3β).</li>
+  <li class="list-group-item">Integrated structural analysis (ChimeraX) and biophysical characterization (BLI) to define regulatory interfaces and mechanistic insights in WNT signaling.</li>
+  <li class="list-group-item">Built and deployed R/Bash/HPC pipelines for base editing analysis enabling scalable, reproducible functional genomics data processing.</li>
+  <li class="list-group-item">Collaborated and mentored PhD students, postdocs, and senior scientists on CRISPR knockout, base editing, and RNA-seq projects across Hedgehog, NFAT5, NPC1/NPC2, and ER-associated pathways.</li>
+</ul>
 
-  <h3>Functional Genomics & Computational Biology</h3>
-  <ul>
-    <li>Library design and preparation for CRISPR knockout and base editing screens.</li>
-    <li>CRISPR/base editing screens, RNA-seq analysis using custom R/Bash scripts, DESeq2, MaGeCK.</li>
-    <li>NGS sample preparation and analysis, including UMI-based read processing.</li>
-    <li>Hands-on experience with MiSeq and NextSeq sequencing platforms.</li>
-  </ul>
+<h5>Weill Cornell Medicine – Post-doctoral Associate, Department of Biochemistry, 2017–2022</h5>
+<p>Advisor: Dr. Jeremy Dittman, MD, PhD</p>
+<ul class="list-group mb-3">
+  <li class="list-group-item">Investigated mechanistic roles of synaptic proteins (Munc13, SNARE complexes) integrating biochemical, biophysical, structural, and genetic approaches.</li>
+  <li class="list-group-item">Led establishment of collaborative projects between Dittman and Rothman labs (Yale University), culminating in shared NIH R01 grant.</li>
+  <li class="list-group-item">Initiated international collaboration with Dr. Noa Lipstein’s group (Germany), linking molecular mechanisms of Munc13 to patient-derived mutations.</li>
+  <li class="list-group-item">Applied genome-editing strategies to study cellular/molecular impact of human neurological mutations.</li>
+  <li class="list-group-item">Mentored PhD students in experimental design, protein biochemistry, biophysics, and data analysis.</li>
+</ul>
 
-  <h3>Programming & Data Visualization</h3>
-  <ul>
-    <li>Proficient in R, Bash for genomic data analysis and visualization on HPC.</li>
-    <li>Statistical analysis: regression modeling, ANOVA, multivariate analysis, inference.</li>
-    <li>Familiar with Python (Pandas, NumPy, Matplotlib, Seaborn) for data manipulation and plotting.</li>
-  </ul>
+<h5>Oregon State University – Ph.D., Biochemistry and Biophysics, 2011–2017</h5>
+<p>Advisor: Dr. Colin Johnson, PhD</p>
+<ul class="list-group mb-3">
+  <li class="list-group-item">Characterized functional properties of Otoferlin, essential for neurotransmission in inner hair cells (IHCs).</li>
+  <li class="list-group-item">Biochemical and biophysical characterization of Otoferlin and Ferlin family proteins using ITC, CD, fluorescence spectroscopy, and BLI.</li>
+  <li class="list-group-item">Optimized non-canonical amino acid incorporation to probe protein-membrane interactions.</li>
+  <li class="list-group-item">X-ray crystallography rotation in Dr. Andrew Karplus’s lab, analyzing crystals of Sedoheptulose-7-Phosphate cyclase (Val A protein).</li>
+</ul>
 
-  <h2>Professional Experience</h2>
-  <h3>Stanford University – Senior Scientist (Life Science Research Professional)</h3>
-  <p>2022–Present | Advisor: Dr. Rajat Rohatgi, MD, PhD</p>
-  <ul>
-    <li>Developed and optimized CRISPR knockout and base editing screens, including library design, preparation, and NGS workflows (MiSeq, NextSeq) to map sequence-function landscapes within β-catenin destruction complex (CTNNB1, AXIN1, APC, GSK3β).</li>
-    <li>Integrated structural analysis (ChimeraX) and biophysical characterization (BLI) to define regulatory interfaces and mechanistic insights in WNT signaling.</li>
-    <li>Built and deployed R/Bash/HPC pipelines for base editing analysis enabling scalable, reproducible functional genomics data processing.</li>
-    <li>Collaborated and mentored PhD students, postdocs, and senior scientists on CRISPR knockout, base editing, and RNA-seq projects across Hedgehog, NFAT5, NPC1/NPC2, and ER-associated pathways.</li>
-  </ul>
+<!-- Education -->
+<h2>Education</h2>
+<ul class="list-group mb-3">
+  <li class="list-group-item">Oregon State University – Ph.D., Biochemistry and Biophysics, 2011–2017</li>
+  <li class="list-group-item">Edinburgh Napier University – M.Sc., Drug Design and Biomedical Sciences, 2008–2009</li>
+  <li class="list-group-item">Government College of Pharmacy – B.Pharm, 2002–2006</li>
+</ul>
 
-  <h3>Weill Cornell Medicine – Post-doctoral Associate, Department of Biochemistry</h3>
-  <p>2017–2022 | Advisor: Dr. Jeremy Dittman, MD, PhD</p>
-  <ul>
-    <li>Investigated mechanistic roles of synaptic proteins (Munc13, SNARE complexes) integrating biochemical, biophysical, structural, and genetic approaches.</li>
-    <li>Led establishment of collaborative projects between Dittman and Rothman labs (Yale University), culminating in shared NIH R01 grant.</li>
-    <li>Initiated international collaboration with Dr. Noa Lipstein’s group (Germany), linking molecular mechanisms of Munc13 to patient-derived mutations.</li>
-    <li>Applied genome-editing strategies to study cellular/molecular impact of human neurological mutations.</li>
-    <li>Mentored PhD students in experimental design, protein biochemistry, biophysics, and data analysis.</li>
-  </ul>
+<!-- Publications -->
+<h2>Publications (selected)</h2>
+<ul class="list-group mb-3">
+  <li class="list-group-item">Padmanarayana M, et al. <strong>Mutational scanning reveals substrate-assisted autoregulation of the WNT destruction complex</strong>. bioRxiv, 2025.</li>
+  <li class="list-group-item">Reza Asadollahi, et al., Padmanarayana M. <strong>Pathogenic UNC13A variants cause a neurodevelopmental syndrome by impairing synaptic function</strong>. Nature Genetics, 2025.</li>
+  <li class="list-group-item">Padmanarayana M, et al. <strong>A unique C2 domain at the C terminus of Munc13 promotes synaptic vesicle priming</strong>. PNAS, 2021.</li>
+  <li class="list-group-item">Golbek WT, Padmanarayana M*. <strong>Otoferlin C2F domain-induced changes in membrane structure observed by sum frequency generation</strong>. Biophysical Journal, 2019.</li>
+  <li class="list-group-item">Padmanarayana M, et al. <strong>Characterization of the Lipid Binding properties of Otoferlin</strong>. Biochemistry, 2014.</li>
+</ul>
+<p><a href="https://scholar.google.com/citations?user=ru3EB8cAAAAJ&hl=en" target="_blank">See full publications on Google Scholar</a></p>
 
-  <h3>Oregon State University – Ph.D., Biochemistry and Biophysics</h3>
-  <p>2011–2017 | Advisor: Dr. Colin Johnson, PhD</p>
-  <ul>
-    <li>Characterized functional properties of Otoferlin, essential for neurotransmission in inner hair cells (IHCs).</li>
-    <li>Biochemical and biophysical characterization of Otoferlin and Ferlin family proteins using ITC, CD, fluorescence spectroscopy, and BLI.</li>
-    <li>Optimized non-canonical amino acid incorporation to probe protein-membrane interactions.</li>
-    <li>X-ray crystallography rotation in Dr. Andrew Karplus’s lab, analyzing crystals of Sedoheptulose-7-Phosphate cyclase (Val A protein).</li>
-  </ul>
+<!-- Awards & Talks -->
+<h2>Awards & Professional Service</h2>
+<ul class="list-group mb-3">
+  <li class="list-group-item">Mikitani Cancer Research Fund – Stanford Center Institute and Cancer Cell Biology program</li>
+  <li class="list-group-item">Review Editor, Frontiers in Molecular Biosciences / Cellular Biochemistry / Biochemistry & Biophysics reports</li>
+  <li class="list-group-item">Invited Talks: The C2C domain of Munc13 is required for priming synaptic vesicles, New York Area Worm Meeting, Jan 2020; A unique C2 domain at the C-terminus of Munc13 mediates vesicle tethering to promote synaptic transmission, Feil Family Brain and Mind Research Institute, Dec 2018</li>
+</ul>
+```
 
-  <h3>Industry Experience</h3>
-  <ul>
-    <li><strong>LAB901 (Agilent Technologies) – Research Assistant</strong> (2009–2011): Validated automated gel electrophoresis systems and optimized fluorescent marker protein labeling.</li>
-    <li><strong>Geltec Private LTD – Analytical Chemist, R&D</strong> (2006–2008): Developed analytical methods for soft gel formulations; chemical analysis using HPLC, paper, and TLC.</li>
-  </ul>
+  </section>
 
-  <h2>Education</h2>
-  <ul>
-    <li>Oregon State University – Ph.D., Biochemistry and Biophysics, 2011–2017</li>
-    <li>Edinburgh Napier University – M.Sc., Drug Design and Biomedical Sciences, 2008–2009</li>
-    <li>Government College of Pharmacy – B.Pharm, 2002–2006</li>
-  </ul>
+  <footer class="bg-light text-center py-3 mt-5">
+    &copy; 2025 Murugesh Narayanappa
+  </footer>
 
-  <h2>Publications (as Murugesh Padmanarayana)</h2>
-  <ul>
-    <li>Mutational scanning reveals substrate-assisted autoregulation of the WNT destruction complex. Padmanarayana M, et al. bioRxiv, 2025.</li>
-    <li>Pathogenic UNC13A variants cause a neurodevelopmental syndrome by impairing synaptic function. Reza Asadollahi, et al., Padmanarayana M, Nature Genetics, 2025.</li>
-    <li>A unique C2 domain at the C terminus of Munc13 promotes synaptic vesicle priming. Padmanarayana M, et al., PNAS, 2021.</li>
-    <li>Otoferlin C2F domain-induced changes in membrane structure observed by sum frequency generation. Golbek WT, Padmanarayana M*, Biophysical Journal, 2019.</li>
-    <li>Characterization of the Lipid Binding properties of Otoferlin. Padmanarayana M, et al., Biochemistry, 2014.</li>
-  </ul>
-  <p>For full publications, see <a href="https://scholar.google.com/citations?user=ru3EB8cAAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <h2>Awards & Professional Service</h2>
-  <ul>
-    <li>Mikitani Cancer Research Fund – Stanford Center Institute and Cancer Cell Biology program.</li>
-    <li>Review Editor, Frontiers in Molecular Biosciences / Cellular Biochemistry / Biochemistry & Biophysics reports.</li>
-  </ul>
-
-  <h2>Invited Talks</h2>
-  <ul>
-    <li>The C2C domain of Munc13 is required for priming synaptic vesicles. The New York Area Worm Meeting, Jan 2020.</li>
-    <li>A unique C2 domain at the C-terminus of Munc13 mediates vesicle tethering to promote synaptic transmission. Feil Family Brain and Mind Research Institute, Dec 2018.</li>
-  </ul>
-</section>
+</body>
+</html>

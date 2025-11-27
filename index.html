@@ -1,53 +1,60 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Your Name</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murugesh Narayanappa – Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Murugesh Narayanappa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Navigation Bar with Photo -->
-    <nav class="navbar">
-        <div class="nav-left">
-            <img src="your-photo.jpg" alt="Profile photo" class="profile-pic">
-            <a href="index.html" class="nav-name">Your Name</a>
-        </div>
+  <!-- Hero / Photo Section -->
 
-        <div class="nav-right">
-            <a href="cv.html">CV</a>
-            <a href="publications.html">Publications</a>
-            <a href="blog.html">Blog</a>
-        </div>
-    </nav>
+  <section class="container py-5 text-center">
+    <div class="sidebar mx-auto" style="max-width: 1000px;">
+      <img src="Murugesh.jpg" alt="Murugesh Narayanappa" class="img-fluid mb-3" style="width: 300px; height: auto; object-fit: cover;">
+      <h2 class="mb-2">
+        Murugesh Narayanappa, Ph.D. 
+        <span style="font-weight: normal; font-size: 1rem; color: #555;">(Biochemistry and Biophysics)</span>
+      </h2>
+      <hr style="width: 60px; border-top: 2px solid #007bff; margin: 0 auto 1rem;">
+      <p>Milpitas, California</p>
+      <p><a href="mailto:murugeshnpadma@gmail.com">murugeshnpadma@gmail.com</a> | <a href="https://github.com/murugeshngit-dev" target="_blank">GitHub</a></p>
+    </div>
+  </section>
 
-    <!-- Profile Section -->
-    <section class="profile">
-        <h1>Your Name</h1>
-        <h2>Graduate Student in [Your Field]</h2>
+  <!-- About Me Section -->
 
-        <p class="location">📍 Your Location</p>
+  <section class="container py-3">
+    <h2>About Me</h2>
+    <p>Hello! I’m a senior scientist specializing in biochemistry, biophysics, and computational biology. This website provides information about my research, publications, and professional experience. You can also download my CV or explore my published work in detail.</p>
+    <p><a href="cv.html" class="btn btn-primary">View My CV</a></p>
+  </section>
 
-        <div class="links">
-            <a href="mailto:your@email.com">Email</a>
-            <a href="https://twitter.com/">Twitter</a>
-            <a href="https://www.linkedin.com/">LinkedIn</a>
-            <a href="https://github.com/">GitHub</a>
-            <a href="https://scholar.google.com/">Scholar</a>
-        </div>
-    </section>
+  <footer class="bg-light text-center py-3 mt-5">
+    &copy; 2025 Murugesh Narayanappa
+  </footer>
 
-    <!-- Blog Section Placeholder -->
-    <section class="blog">
-        <h2>Blog</h2>
-        <p>Blog posts coming soon.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Your Name</p>
-    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
